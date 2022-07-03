@@ -9,6 +9,7 @@ hook: "sponsors_page"
 {%- from 'components/donation.macro.html' import donationItem %}
 {%- from 'components/hero.macro.html' import hero %}
 
+{% set title = site.sponsors_page.title %}
 {% set supporting_text = site.sponsors_page.description %}
 {% set monthly_donations = sponsors.totals.monthlyDonations | dollars %}
 {% set supporting_text = supporting_text | replace("BACKER_COUNT", sponsors.totals.sponsorCount) | replace("MONTHLY_DONATIONS", monthly_donations) %}
