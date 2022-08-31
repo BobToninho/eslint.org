@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Vue Uncategorized rules to have a better life
-teaser: "Some useful Uncategorized Vue rules that will make your daily life a little easier."
+# teaser: "Some useful Uncategorized Vue rules that will make your daily life a little easier."
+teaser: "The Vue ESLint plugin has several rules that are uncategorized and it turns out many will make your daily life a little easier."
 authors:
   - BobToninho
 categories:
@@ -11,9 +12,13 @@ tags:
   - Rules
 ---
 
-## Introduction
+<!--Why would ESLint users want to read this? What benefit are they receiving? Why would they read this instead of something else?-->
+<!--Same for Vue users?-->
+<!--What are the benefits you’ve seen, not just “it makes code the way I like it,” but practically speaking? Did you reduce bugs? Did it help in another way?-->
+<!--What is the conclusion you’d like readers to take away?-->
 
-The [esling-plugin-vue](https://eslint.vuejs.org/) plugin divides its rules in the following categories:
+<!--The [esling-plugin-vue](https://eslint.vuejs.org/) plugin divides its rules in the following categories:-->
+The official Vue ESLint plugin, [eslint-plugin-vue](https://eslint.vuejs.org/), groups its rules into the following categories:
 
 - Base
 - Essential
@@ -22,7 +27,8 @@ The [esling-plugin-vue](https://eslint.vuejs.org/) plugin divides its rules in t
 - Uncategorized
 - Extensions
 
-I spent some time digging into the *uncategorized* category to see what can be useful to help avoid distractions in commits and, of course, to enforce the same style in all parts of a Vue project. In my opinion, all Vue projects should use the Recommended category, which enforces a lot (if not all) of the topics mentioned in the [style guide](https://vuejs.org/style-guide/).
+<!--I spent some time digging into the *uncategorized* category to see what can be useful to help avoid distractions in commits and, of course, to enforce the same style in all parts of a Vue project. In my opinion, all Vue projects should use the Recommended category, which enforces a lot (if not all) of the topics mentioned in the [style guide](https://vuejs.org/style-guide/).-->
+I spent some time digging into the uncategorized category to see which rules might be useful to help avoid problems in commits and to enforce the same style in all parts of a Vue project. In my opinion, all Vue projects should use the Recommended category, which enforces a lot (if not all) of the topics mentioned in the [style guide](https://vuejs.org/style-guide/).
 
 ### `vue/component-name-in-template-casing`
 
