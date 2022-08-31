@@ -1,1 +1,1 @@
-Young freelance developer
+BobToninho (Roberto Tonino) is a 25 years old freelance developer based in Italy. He is currently working on a webapp in collaboration with a local company. In the daily he tries to write good quality code, fighting with time constraints and continuously seeking for improvement. In the spare time he likes to enjoy life with people, travel and watch Formula 1 races.
